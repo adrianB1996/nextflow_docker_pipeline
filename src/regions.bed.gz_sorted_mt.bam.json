@@ -1,0 +1,7 @@
+{
+    "bed_file": "../data/input/regions.bed.gz",
+    "bam_file": "../data/processed/sorted_mt.bam",
+    "feature_counts": {
+        "chrM:5000-6500": 4258
+    }
+}
