@@ -10,6 +10,8 @@ An example of a nexflow pipeline using python scritping.
 
 ## Get started
 
+First download the repoitory. 
+
 Install Nextflow by copying and pasting the following snippet in your shell terminal: 
 
     curl -fsSL get.nextflow.io | bash
@@ -18,7 +20,8 @@ It will download the `nextflow` application launcher in your working directory.
 When done, you may want to complete the installation moving the `nextflow` executable 
 into a directory in your `$PATH` variable.
 
-To run the pipeline ensure you have bam and bed files in the data/input file and run the following command:
+To run the pipeline ensure you have bam and bed files in the data/input file and run the following
+command inside the code repository at the top level. 
 
     nexflow run main.nf
 
