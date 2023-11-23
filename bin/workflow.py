@@ -1,8 +1,11 @@
-from utility.find_files import find_files
-from bed_bam_processes.process_of_bed_bam_files import iterate_bed_bam_pairs
-import os
-import pysam
 import argparse
+import os
+
+import pysam
+
+from bin.bed_bam_processes.process_of_bed_bam_files import \
+    iterate_bed_bam_pairs
+from bin.utility.find_files import find_files
 
 
 def main():

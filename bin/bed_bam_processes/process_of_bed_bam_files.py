@@ -1,8 +1,9 @@
-import json
 import gzip
-import pysam
 import itertools
+import json
 import os
+
+import pysam
 
 
 def iterate_bed_bam_pairs(bed_files: list[str], bam_files: list[str], output_dir: str):

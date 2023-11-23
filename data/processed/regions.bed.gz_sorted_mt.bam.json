@@ -1,6 +1,6 @@
 {
-    "bed_file": "/mnt/c/Users/Adrian/temp/nextflow_docker_pipeline/data/input/regions.bed.gz",
-    "bam_file": "/mnt/c/Users/Adrian/temp/nextflow_docker_pipeline/data/processed/sorted_mt.bam",
+    "bed_file": "data/input/regions.bed.gz",
+    "bam_file": "data/processed/sorted_mt.bam",
     "feature_counts": {
         "chrM:5000-6500": 4258
     }
