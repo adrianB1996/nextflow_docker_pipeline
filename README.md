@@ -33,9 +33,14 @@ but each will have a unique name.
 
 ## Running tests
 
-To run the simple tests I've created run the following:
+To run the simple tests I've created you need to create a virtual enviroment. To do this do the following:
 
-    python -m pytest
+* Run 
+    pipenv shell
+* Run pipenv 
+    pipenv install -r requirements.txt
+* Finally run 
+     python -m pytest
 
 
 # Outputs:
