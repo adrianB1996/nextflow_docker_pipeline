@@ -1,17 +1,12 @@
-#!/usr/bin/env nextflow
-nextflow.enable.dsl=2 
+project_dir = projectDir
 
-process sayHello {
-  input: 
-    val x
-  output:
-    stdout
-  script:
+process ProcessBAMandBED {
+publishDir(path: '{$project_dir}/data/processeddata/processed', mode: 'copy', pattern: '*')
     """
-    echo '$x world!'
+    python $project_dir/src/main.py --input_folder $project_dir/data/input --output_folder $project_dir/data/processed
     """
 }
 
-workflow {
-  Channel.of('Bonjour', 'Ciao', 'Hello', 'Hola') | sayHello | view
+workflow{
+  ProcessBAMandBED()
 }
