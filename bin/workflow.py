@@ -1,5 +1,3 @@
-#!/usr/bin/env python
-
 from utility.find_files import find_files
 from bed_bam_processes.process_of_bed_bam_files import iterate_bed_bam_pairs
 import os
@@ -42,7 +40,6 @@ def main():
 
     # Step 2: Go over bam files sorting and indexing.
     for file in bam_files:
-        
         pysam.sort(
             "-o", os.path.join(output_folder, f"sorted_{os.path.basename(file)}"), file
         )
