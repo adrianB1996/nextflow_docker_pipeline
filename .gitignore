@@ -1,2 +1,7 @@
 # ignore data files
 data/*
+work/*
+.nextflow.log
+.nextflow
+pipfile
+pipfile.lock
