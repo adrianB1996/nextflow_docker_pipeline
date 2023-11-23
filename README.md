@@ -42,8 +42,8 @@ To run the simple tests I've created run the following:
 
 The outputs of this code are the following:
 
-*A sorted bam file for each bam input
-*A indexed filed for each sorted bam file.
-*A json with counts for each region
-*A fasta file for all sequences aligned to the regions mentioned in the bed file. 
+* A sorted bam file for each bam input
+* A indexed filed for each sorted bam file.
+* A json with counts for each region
+* A fasta file for all sequences aligned to the regions mentioned in the bed file. 
 
